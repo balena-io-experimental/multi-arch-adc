@@ -1,3 +1,4 @@
+#A simple example of an ADC running on RPI2 and intel edison
 FROM shaunmulligan/%%RESIN_DEVICE_TYPE%%-node
 
 ENV INITSYSTEM on
