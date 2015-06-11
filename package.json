@@ -1,0 +1,15 @@
+{
+  "name": "node-dockerfile-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Shaun Mulligan <switchflip.shaun@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "i2c": "0.1.8",
+    "async": "^1.2.1"
+  }
+}

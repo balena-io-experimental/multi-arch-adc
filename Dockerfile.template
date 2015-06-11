@@ -1,0 +1,9 @@
+FROM shaunmulligan/%%RESIN_DEVICE_TYPE%%-node
+
+ENV INITSYSTEM on
+RUN node -v
+COPY package.json /package.json
+RUN npm install
+
+COPY src/ /usr/src/app
+CMD ["bash", "/usr/src/app/start.sh"]
