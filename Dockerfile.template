@@ -1,5 +1,5 @@
 #A simple example of an ADC running on RPI2 and intel edison
-FROM shaunmulligan/%%RESIN_DEVICE_TYPE%%-node
+FROM shaunmulligan/%%RESIN_MACHINE_NAME%%-node
 
 ENV INITSYSTEM on
 RUN node -v
